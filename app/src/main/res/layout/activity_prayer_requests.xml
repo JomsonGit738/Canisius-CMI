@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".fuctions.prayerrequests.PrayerRequests">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/angel"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="PRAYER REQUEST"
+        android:textColor="@color/dark_blue"
+        android:textSize="20sp"
+         />
+
+    <EditText
+        android:id="@+id/rename"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHint="@color/black_overlay"
+        />
+
+    <EditText
+        android:id="@+id/reemail"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/black_overlay"
+        />
+
+
+
+    <EditText
+        android:id="@+id/reContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:hint="Your Request"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/black_overlay"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/black_overlay"
+        android:text="Select Gmail after clicking send Button"/>
+    <Button
+        android:id="@+id/rebut"
+        android:layout_marginTop="5dp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_button_style_rounded"
+        android:text="send"
+        android:textColor="@color/source_color_new"
+        android:textSize="16sp"
+        android:elevation="25dp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

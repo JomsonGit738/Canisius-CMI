@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "581783535726",
+    "firebase_url": "https://devamathacmicom.firebaseio.com",
+    "project_id": "devamathacmicom",
+    "storage_bucket": "devamathacmicom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581783535726:android:40c73bd65061cc8939e67f",
+        "android_client_info": {
+          "package_name": "com.brocodz.devamathacmi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581783535726-hmr5oa4tveq371te0sorki71s2tqik92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpJvgTL1_V8-2XgKLZgZo-kyn2mH3g8rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581783535726-hmr5oa4tveq371te0sorki71s2tqik92.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Canisium</string>
+    <string name="title_activity_tabb_prayers">TabbPrayers</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="english_prayer">
+
+God, our loving Father, adoring your profound majesty, we thank you for all the blessings showered upon us through your humble servant Fr. Canisius. May his life devoted solely to fulfill your will in all circumstances, despite all struggles be an inspiration for us in our daily life. In imitation of Fr. Canisius, give us the grace to heroically live a life rooted and grounded on the Word of God and to zealously proclaim the word through our lives.
+O God, the source of al goodness, grant we beseech you that Fr. Canisius be venerated at the altars for your greater glory. May this special favor we now ask for……….. be granted to us through his intercession. We make this prayer to you through Blessed Virgin Mary, the mother of Carmel and St. Kuriakose Elias Chavara in the name of our Lord Jesus Christ.
+Amen\n\n
+Our Father, Hail Mary, Glory be….
+</string>
+
+
+    <string name="aboutprovince">Devamatha Province,Patturaikkal,\nThiruvambadi P.O.\nThrissur - 680022\nPhone: 0091 - (0)487 - 2334430, 2337373\nE-mail: devmatha@gmail.com\n
+Web: www.devamatha.in\n\n
+
+Provincial: Rev. Dr. Davis Panakkal CMI\n
+Councillors:
+Rev. Fr. Francis Kurissery CMI\n
+Rev. Fr. Rijo Payyappilly CMI\n
+Rev. Fr. Franco Chittilappilly CMI\n
+Rev. Fr. Thomas Vazhakkala CMI\n
+Rev. Fr. Jose Thanickal CMI\n\n
+
+    The Canisium App: Ownership and Initiative by Devamatha Province. Application developed by BROCODES  </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    <string name="first">Pilgrim Rosary/ Tripartite rosary/ Cenacle experience of Fr. Canisius CMI</string>
+    <string name="first2">Introduction</string>
+    <string name="first3">This tripartite rosary was a special devotion of SG Fr. Canisius.
+        In the olden days, the faithful used to recite all the 15 mysteries of the rosary.
+        SG Fr. Canisius provides us with a rosary which contains all the 15 mysteries in a nut shell.
+        He has beautifully brought a connecting link between all the mysteries. He had published this
+        rosary at the Marian Jubilee retreat held at CSR Pariyaram from 1986–1988. This is a pilgrimage
+        with the blessed Mary who walked on the Joyful, sorrowful and glorious path, imitating her son.
+        Fr. Canisius suggested this rosary to the whole CMI Congregation in his Last Will. It is his daring
+        conviction that anyone who walks on this pilgrimage of faith and dedication will be triumphant like the Blessed Mother.</string>
+    <string name="first4">Prefatory/opening prayer</string>
+    <string name="first5">Blessed Ever Virgin Mary, you are the forerunner, model and mother in our pilgrimage of faith and religious consecration. We desire to walk with you, in spirit, through the various phases of your pilgrimage.
+        Grant us the same spiritual experience that you gifted the Apostles when you shared with them your life–experiences and led them into contemplation in the cenacle.
+        Lord our God, in this pilgrimage, grant us the grace to grow in the insights on your divine mysteries following the footsteps of the Blessed Virgin Mary. The Father, the son and the Holy Spirit.
+          Amen
+    </string>
+    <string name="first6">First decade: 3 messages – in Nazareth, at Gethsemane and at the tomb</string>
+    <string name="first7">1.) God the Father reiterates through Angel Gabriel that the Virgin Mary is blessed and the Son she is to beget is also blessed. A message of ineffable joy.  2.) But the events that followed would make anyone question the above messages. The tedious journey to Jerusalem, rejection at Bethlehem, flight fearing the threat of King Herod, long hidden life at Nazareth, staunch persecution from the Jews during the public life. At the end, dreadful pain experienced at Gethsemane, a humble plea to the Father. The message sent by the Father through the Angel was a bitter experience and would have shaken the faith of anyone. 3.) The third message which the father sends through the Angel is that the Crucified Son of Man has gloriously resurrected. “He is not here, He has risen!” this is the message given by the angel to the women who came to visit the tomb. Queen of Heaven! Rejoice! The triumph of your firm faith has resulted in unimaginable resurrection.
+        Let us pray mediating on these three messages.
+    </string>
+    <string name="first8">Second decade: Three pictures- blessed Jesus, helpless one, source of blessings</string>
+    <string name="first9">1.) When Jesus was in the womb of the Blessed Virgin Mary, Elizabeth filled with the Holy Spirit attributed her to be blessed, “Blessed is also the fruit of your womb.” Mary’s response was the song of praise, opening with, ‘My soul magnifies the Lord.” 2.) But Jesus appeared as the helpless one at the stone pavement of Pilate. The soldiers wounded him without bounds. Pilate made him stand before the crowd and exclaimed – “Behold the Man” - in short - behold him who has lost all features of a human being. Mary becomes the helpless mother of the helpless Son of Man. Mary’s faith was rigid. Oh Mary! How firm was your faith!. 3.) Almost forty days passed by. On that day, Jesus gloriously ascended to heaven in the presence of his own people. He ascended to his father, disappearing into the clouds blessing both his friends and enemies. The picture which soothed her maternal heart. Jesus, the source of all blessings.
+        Let us pray mediating on these three messages.
+    </string>
+    <string name="first10">Third Decade- Jesus King of Kings, a scornful king, Emperor of the Universe</string>
+    <string name="first11">1.) The Angels in Heaven, Shepherds in the manger and the Magi in the humble dwelling, adored the Divine Child as the ‘expected King’ of the world and as Christ, the Lord. Yes, God the Father had already announced it through Angel Gabriel - The King who is to rule on the throne of David forever. The experience which replenished the heart of Mary. 2.) But in the course of time, the soldiers of Pilate dressed him in a purple robe, made Him hold a scepter in His hands. They placed a crown of thorns on His head, spitted on His face, and scornfully addressed him, “Hail, King of Jews.” They hit on his head with the scepter. A heart rending event in the life of the blessed mother. 3.) The feast of Pentecost arrived without delay. The proclamation of His universal kingdom. The day apostles began to proclaim the kingdom of Jesus, filled with the Holy Spirit. Almost 3000 people became members of His kingdom after the speech of Peter, the official spokesperson of the Kingdom. Blessed Virgin began to be venerated as the Mother of this Empire.\n
+        Let us pray mediating on these three messages.
+    </string>
+    <string name="first12">Fourth decade: The unsteadiness of Jerusalem made it helpless. At first, it received the redeemer, and then it rejected Him. Thereby, it had to give way to the Heavenly Jerusalem.</string>
+    <string name="first13">1.) Simeon recognized Jerusalem’s long awaited redeemer. He was drunk with satisfaction when he carried the child in his arms. The moment when the mother’s heart was filled with satisfaction. 2.) But the same Jerusalem sent its redeemer into exile. She judged that His presence is unfit for the sanctity of Jerusalem. Jesus was condemned to death because of her. Mary followed her son with a broken heart, but with firm faith. Jerusalem! Jerusalem! That lamentation resounds mildly in the sky even today. 3.) Poor Jerusalem! Later she understands that she was not the true Jerusalem. She was only a prototype of Heavenly Jerusalem. The same redeemer, whom she sent into exile, opened the gates of the Heavenly Jerusalem and welcomed his mother who followed him faithfully. “Now all the generations will call me blessed” – the complete fulfillment of these words.
+        Let us pray mediating on these three messages.
+    </string>
+    <string name="first14">Fifth decade: Hollowness of the learned men of Jerusalem, Mother’s lastingness</string>
+    <string name="first15">1.) Mother’s heart leaped with pride when the “learned men” of Jerusalem were awe-struck at the understanding and replies of Jesus, who was just 12 years old. 2.) But the same learned men scorned him without limits, when they saw him helpless on the cross. Jesus remained silent. Mother’s heart was wounded. But she stood with a firm faith beneath the cross. Brave Lady! Her divine Son did not forget to console her at that moment. He raised her as the Virgin Mother of all who would later believe in him. Oh Glorious Lady – in short – behold your son. 3.) Even in the glory of His resurrection, Jesus remained silent before the learned men of Jerusalem. A mysterious silence which gained many. With the coronation of the mother, who was faithful to her Divine Son always and everywhere as the queen of the three worlds, her pilgrimage of faith and dedication were adorned with fruits.
+        Let us pray mediating on these three messages.
+    </string>
+    <string name="first16">Let us pray</string>
+    <string name="first17">Virgin Mary, who triumphed in your pilgrimage of faith and dedication, the Lord was with you from the moment of your reply – “Behold the handmaid of the Lord.” You were blessed among women and the fruit of your womb Jesus was also blessed.
+        You had to face many events which could shed darkness on these truths and make it acutely disillusioned. At all these moments, your heartbeats were sending rhythmic waves of firm repetition of – “Behold the handmaid of the Lord” to the presence of the Father. The angels of the Father who were well pleased with these notes would have surely sung the hymn of praise in heaven: “Oh Women! How great is your faith!” the firm faith of the mother was a soothing balm to the suffering heart of Jesus. Being well pleased with it, he made you the Virginal mother of all believers, gave you a glorious assumption and honored you with the crowning in heaven. Oh! Holy Mary, mother of God pray for us sinners that through firm faith we may face all the ups and downs of this life and be triumphant in this pilgrimage of faith, now and at the hour of our death.
+        Amen.
+    </string>
+    <string name="first18">_*_*_*_*_*_*_*_*_*_*_*_</string>
+
+
+
+
+</resources>

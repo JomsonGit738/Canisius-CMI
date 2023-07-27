@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fuctions.prayers.FragmentFour">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:id="@+id/we"
+        android:text="  Prayer for the Canonization of\n Servant of God Fr. Canisius CMI"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/we"
+            android:gravity="center_horizontal"
+            android:text="@string/english_prayer"
+            android:textColor="#000000"
+            android:textSize="18dp" />
+    </ScrollView>
+
+</LinearLayout>

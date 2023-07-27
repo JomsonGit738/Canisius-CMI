@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".fuctions.more.More">
+
+
+    <TextView
+        android:id="@+id/tt_Whats"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="76dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="See More Details..."
+        android:textColor="#000000"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buturl"
+        android:layout_width="235dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/buttonstyle"
+        android:orientation="horizontal"
+        android:text="Go to Website"
+        android:textColor="#fff"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tt_Whats"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="262dp"
+        android:layout_height="367dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="89dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tt_Whats">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:layout_marginTop="36dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toTopOf="@+id/linearLayout3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tt_Whats"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:id="@+id/facebook"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/facebookurl" />
+
+            <ImageView
+                android:id="@+id/breaker"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/breakerurl" />
+
+            <ImageView
+                android:id="@+id/youtube"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/youtubeurl" />
+
+            <ImageView
+                android:id="@+id/whatsapp"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/whatsappurl" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="255dp">
+
+            <ImageView
+                android:id="@+id/twitter"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:src="@drawable/twitterurl" />
+
+            <ImageView
+                android:id="@+id/spotify"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="5dp"
+                android:src="@drawable/spotifyurl" />
+
+            <ImageView
+                android:id="@+id/instagram"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:src="@drawable/instagramurl" />
+
+            <ImageView
+                android:id="@+id/wikipedia"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:src="@drawable/wikipediaurl" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="85dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="339dp">
+
+            <ImageView
+                android:id="@+id/google"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:src="@drawable/googleurl" />
+
+            <ImageView
+                android:id="@+id/pintrest"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="8dp"
+                android:src="@drawable/pintresturl" />
+
+            <ImageView
+                android:id="@+id/pocketcasts"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/pocketcastsurl" />
+
+            <ImageView
+                android:id="@+id/radiopublic"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:src="@drawable/radiopublicurl" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:background="#fff"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="424dp">
+
+            <ImageView
+                android:id="@+id/blogspot"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:src="@drawable/blogspot" />
+
+            <ImageView
+                android:id="@+id/anchor"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:src="@drawable/anchor1" />
+
+            <ImageView
+                android:id="@+id/googlemap"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:padding="10dp"
+                android:src="@drawable/googlemap" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <!--
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="86dp"
+            android:layout_height="84dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="169dp"
+            android:layout_marginBottom="468dp"
+            android:src="@drawable/facebookurl" />
+
+        <ImageView
+            android:id="@+id/breaker"
+            android:layout_width="85dp"
+            android:layout_height="84dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="130dp"
+            android:layout_marginEnd="275dp"
+            android:layout_marginBottom="382dp"
+            android:src="@drawable/breakerurl" />
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="81dp"
+            android:layout_height="82dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="168dp"
+            android:layout_marginBottom="383dp"
+            android:src="@drawable/youtubeurl" />
+
+        <ImageView
+            android:id="@+id/whatsapp"
+            android:layout_width="89dp"
+            android:layout_height="85dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:layout_marginEnd="272dp"
+            android:layout_marginBottom="96dp"
+            android:src="@drawable/whatsappurl" />
+
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="61dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="277dp"
+            android:layout_marginEnd="287dp"
+            android:layout_marginBottom="208dp"
+            android:src="@drawable/twitterurl" />
+
+        <ImageView
+            android:id="@+id/spotify"
+            android:layout_width="80dp"
+            android:layout_height="70dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="193dp"
+            android:layout_marginEnd="169dp"
+            android:layout_marginBottom="102dp"
+            android:src="@drawable/spotifyurl" />
+
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="60dp"
+            android:layout_height="61dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="181dp"
+            android:layout_marginBottom="205dp"
+            android:src="@drawable/instagramurl" />
+
+        <ImageView
+            android:id="@+id/wikipedia"
+            android:layout_width="65dp"
+            android:layout_height="68dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="284dp"
+            android:layout_marginBottom="299dp"
+            android:src="@drawable/wikipediaurl" />
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="64dp"
+            android:layout_marginBottom="106dp"
+            android:src="@drawable/googleurl" />
+
+        <ImageView
+            android:id="@+id/pintrest"
+            android:layout_width="70dp"
+            android:layout_height="75dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="68dp"
+            android:layout_marginBottom="392dp"
+            android:src="@drawable/pintresturl" />
+
+        <ImageView
+            android:id="@+id/anchor"
+            android:layout_width="106dp"
+            android:layout_height="109dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="46dp"
+            android:layout_marginBottom="281dp"
+            android:src="@drawable/anchorurl" />
+
+        <ImageView
+            android:id="@+id/pocketcasts"
+            android:layout_width="94dp"
+            android:layout_height="86dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="49dp"
+            android:layout_marginBottom="196dp"
+            android:src="@drawable/pocketcastsurl" />
+
+        <ImageView
+            android:id="@+id/radiopublic"
+            android:layout_width="62dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginEnd="180dp"
+            android:layout_marginBottom="305dp"
+            android:src="@drawable/radiopublicurl" />
+
+            -->
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

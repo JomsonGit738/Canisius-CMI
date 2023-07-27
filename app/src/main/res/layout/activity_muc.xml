@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".fuctions.gallery.Muc">
+
+    <ListView
+
+        android:id="@+id/List_View1"
+        android:layout_width="match_parent"
+        android:layout_height="533dp"
+        android:choiceMode="singleChoice"
+        android:listSelector="#686765"
+        android:padding="5dp" />
+
+        <com.example.jean.jcplayer.view.JcPlayerView
+            android:id="@+id/jc_player"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:background="#715538"
+            app:seek_bar_color="#FFFFFF"
+            app:next_icon_color="#FFFFFF"
+            app:pause_icon_color="#fff"
+            app:play_icon_color="#fff"
+            app:previous_icon_color="#fff"
+            app:random_icon_color="#fff"
+            app:progress_color="@color/yellow"
+            app:repeat_icon_color="#FFF"
+            app:text_audio_current_duration_color="#FFF"
+            app:text_audio_duration_color="#FFF"
+            app:text_audio_title_color="#FFFFFF"
+            />
+    <!-- if the media player wants to hide use this one:  android:visibility="gone" -->
+
+</RelativeLayout>

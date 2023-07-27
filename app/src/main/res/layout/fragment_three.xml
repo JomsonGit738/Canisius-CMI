@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_blue"
+    tools:context=".fuctions.prayers.FragmentThree">
+
+
+
+
+    <ImageView
+        android:id="@+id/mozhi"
+        android:layout_width="373dp"
+        android:layout_height="406dp"
+        android:layout_gravity="center"
+        android:background="#000"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
+    <!--
+    <ProgressBar
+        android:id="@+id/pbWord"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundGravity="center"
+        android:padding="150dp"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="26dp" />
+        -->
+
+    <ImageView
+        android:id="@+id/mage1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle"
+        android:textAllCaps="false"
+        android:src="@drawable/ic_share_image"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.376"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mozhi"
+        app:layout_constraintVertical_bias="0.436"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/mage2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/buttonstyle"
+        android:padding="10dp"
+        android:src="@drawable/ic_download_image"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.125"
+        app:layout_constraintStart_toEndOf="@+id/mage1"
+        app:layout_constraintTop_toBottomOf="@+id/mozhi"
+        app:layout_constraintVertical_bias="0.436"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

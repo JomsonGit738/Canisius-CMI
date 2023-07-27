@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:padding="15dp">
+    <TextView
+            android:id="@+id/item_txt"
+            android:text="Network Error..."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:textSize="17sp"
+            android:fontFamily="@font/alegreya_sans_sc_medium"
+            android:textColor="#422820"
+            android:padding="10dp"/>
+</RelativeLayout>
